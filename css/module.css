@@ -1,0 +1,141 @@
+
+.cd .box3{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center; 
+    
+}
+.cd .box4{
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center; 
+}
+.efgh .box5 {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center; 
+}
+.efgh .box6 {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center; 
+}
+.efgh .box7 {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center; 
+}
+.efgh .box8 {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center; 
+}
+.box1{
+    background-color: rgb(206, 96, 142);
+}
+.box2{
+    background-color: rgba(145, 91, 233, 0.582);
+  
+} 
+.box3{
+    background-color: rgba(194, 38, 129, 0.938);
+}
+.box4{
+    background-color: rgb(245, 19, 105);
+  
+}
+.box5{
+    background-color: rgb(195, 211, 202);
+   
+}
+.box6{
+    background-color: rgb(32, 122, 182);
+}
+.box7{
+    background-color: rgb(152, 83, 158);
+}
+.box8{
+    background-color: rgb(197, 106, 125);
+}
+.box9{
+    background-color: rgb(88, 45, 128);
+  
+}
+
+@media all and (min-width: 768px) {
+    
+    .cd .box3{
+        width: 380px;
+        height: 200px;
+        text-align: center; 
+        line-height: 200px;
+    }
+    .cd .box4{
+        width: 380px;
+        height: 200px;
+        text-align: center; 
+        line-height: 200px;
+    }
+    .efgh .box5{
+        width: 190px;
+        height: 250px;
+        text-align: center; 
+        line-height: 250px;
+    }
+    .efgh .box6{
+        width: 190px;
+        height: 250px;
+        text-align: center; 
+        line-height: 250px;
+    }
+    .efgh .box7{
+        width: 190px;
+        height: 250px;
+        text-align: center; 
+        line-height: 250px;
+    }
+    .efgh .box8{
+        width: 190px;
+        height: 250px;
+        text-align: center; 
+        line-height: 250px;
+    }
+    .box1{
+        background-color: rgb(121, 182, 206);
+    }
+    .box2{
+        background-color: rgba(86, 244, 255, 0.582);
+      
+    } 
+    .box3{
+        background-color: rgba(72, 44, 230, 0.938);
+    }
+    .box4{
+        background-color: rgb(1, 116, 192);
+      
+    }
+    .box5{
+        background-color: rgb(195, 211, 202);
+       
+    }
+    .box6{
+        background-color: rgb(32, 122, 182);
+    }
+    .box7{
+        background-color: rgb(139, 194, 211);
+    }
+    .box8{
+        background-color: rgb(38, 62, 128);
+    }
+    .box9{
+        background-color: rgb(42, 158, 167);
+      
+    }
+
+}
