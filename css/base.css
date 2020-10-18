@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(125, 221, 189);
+    width: 480px;
+    height: 767px;
+    
+}
+header {
+    width: 480px;
+    height: 75px;
+    text-align: center; 
+    line-height: 75px;          
+}
+
+aside {
+    width: 480px;
+    height: 150px;
+    text-align: center; 
+    line-height: 150px;
+}
+main{
+    width: 480px;
+    height: 750px;     
+}
+footer {
+    width: 480px;
+    height: 80px;   
+    text-align: center; 
+    line-height: 80px;  
+}
+
+ @media all and (min-width: 768px) {
+    body {
+        width: 960px;
+        height: 768px;
+        background-color: rgba(205, 163, 224, 0.959);
+    }
+    header {
+        width: 960px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;           
+    }
+    aside {
+        width: 200px;
+        height: 600px;
+        text-align: center; 
+        line-height: 600px;
+    }
+    main {
+        width: 760px;
+        height: 450px;  
+    }
+    footer {
+        width: 760px;
+        height: 150px;   
+        text-align: center; 
+        line-height: 150px;  
+    }
+} 
