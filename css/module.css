@@ -1,41 +1,6 @@
 
-.cd .box3{
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-    text-align: center; 
-    
-}
-.cd .box4{
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-    text-align: center; 
-}
-.efgh .box5 {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
-.efgh .box6 {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
-.efgh .box7 {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
-.efgh .box8 {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
+@media (min-width: 480px) and (max-width: 699px){/* for mobile  */ 
+
 .box1{
     background-color: rgb(206, 96, 142);
 }
@@ -67,45 +32,54 @@
     background-color: rgb(88, 45, 128);
   
 }
+}
 
-@media all and (min-width: 768px) {
+@media (min-width: 700px) and (max-width: 959px){    /* for Tablet */
+
+   .box1 {
+        background-color: #f05f0c;
+        
+    }
     
-    .cd .box3{
-        width: 380px;
-        height: 200px;
-        text-align: center; 
-        line-height: 200px;
+    .box2 {
+        background-color: #74562f;
     }
-    .cd .box4{
-        width: 380px;
-        height: 200px;
-        text-align: center; 
-        line-height: 200px;
+    
+    .box3 {
+        background-color: #bb7f11;
     }
-    .efgh .box5{
-        width: 190px;
-        height: 250px;
-        text-align: center; 
-        line-height: 250px;
+    
+    .box4 {
+        background-color: #81831b;
+      
     }
-    .efgh .box6{
-        width: 190px;
-        height: 250px;
-        text-align: center; 
-        line-height: 250px;
+    
+    .box5 {
+        background-color: #e61f18;
+        
     }
-    .efgh .box7{
-        width: 190px;
-        height: 250px;
-        text-align: center; 
-        line-height: 250px;
+    
+    .box6 {
+        background-color: #f8d122;
+        
     }
-    .efgh .box8{
-        width: 190px;
-        height: 250px;
-        text-align: center; 
-        line-height: 250px;
+    
+    .box7 {
+        background-color: #d95f5f;
     }
+    
+    .box8{
+        background-color: #c48600;
+    }
+    
+    .box9 {
+        background-color: #b8a262;
+    }
+
+}
+
+@media (min-width: 960px){/* for Desktop  */
+
     .box1{
         background-color: rgb(121, 182, 206);
     }
